@@ -6,9 +6,12 @@ This is the official Git repository page for the dataset paper:
 
 ## Dataset
 
-The dataset can be downloaded from [Zenodo](https://doi.org/10.5281/zenodo.8043459).
+The dataset can be downloaded from [Zenodo](https://zenodo.org/records/10563101).
 
-The dataset includes 1,524,832 tweets for 60 languages. Each entry in the dataset is a single JSON line and has the following entries:
+### Dataset details
+The dataset includes 1,524,826 tweets for 60 languages. 306,295 tweets include images and thus the `image_tags` is be populated with the classified concepts based on [Recognize Anything Plus Model (RAM++)](https://github.com/xinyu1205/recognize-anything/), and it is an empty list in case the tweet does not include an image.
+
+Each entry in the dataset is a single JSON line and has the following entries:
 
 ```
 {
@@ -21,6 +24,7 @@ The dataset includes 1,524,832 tweets for 60 languages. Each entry in the datase
 'channel':
 'country': 
 'verified':
+'image_tags':
 }
 ```
 
@@ -43,7 +47,7 @@ Each component is implement separately under ``src`` folder.
 
 
 ## Citation
-If you find the resources, please cite us:
+If you find the resources useful, please cite us:
 ```
 @misc{hakimov2023unveiling,
       title={Unveiling Global Narratives: A Multilingual Twitter Dataset of News Media on the Russo-Ukrainian Conflict}, 
