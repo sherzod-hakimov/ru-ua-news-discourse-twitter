@@ -20,6 +20,9 @@ The full list can be found under `resources/newsmap_metadata.json`
 
 The dataset can be downloaded from ANONYMIZED_LINK.
 
+The sample of the dataset can be found under  `resources/dataset_sample.jsonl`.
+
+
 ### Dataset details
 The dataset includes 1,524,826 tweets for 60 languages. 306,295 tweets include images and thus the `image_tags` is be populated with the classified concepts based on [Recognize Anything Plus Model (RAM++)](https://github.com/xinyu1205/recognize-anything/), and it is an empty list in case the tweet does not include an image.
 
