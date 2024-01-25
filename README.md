@@ -18,7 +18,7 @@ The full list can be found under `resources/newsmap_metadata.json`
 
 ## Dataset
 
-The dataset can be downloaded from ANONYMIZED_LINK.
+The dataset can be downloaded from [Zenodo](https://zenodo.org/records/10563101).
 
 The sample of the dataset can be found under  `resources/dataset_sample.jsonl`.
 
@@ -43,7 +43,7 @@ Each entry in the dataset is a single JSON line and has the following entries:
 }
 ```
 
-If you need access to the full text of the dataset, please contact us via an email: [anonymized email](mailto:anonymized_email@email.com)
+If you need access to the full text of the dataset, please contact us via an email: [sherzodhakimov (at sign) gmail.com](mailto:sherzodhakimov@gmail.com)
 
 
 ## Setup & Installation
