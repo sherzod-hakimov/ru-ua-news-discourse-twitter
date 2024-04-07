@@ -60,4 +60,17 @@ pip install -r requirements.txt
 
 Each component is implemented separately under ``src`` folder.
 
+## Citation
+
+If you find the resources useful, please cite us:
+
+```
+@inproceedings{hakimov2023unveiling,
+      title={Unveiling Global Narratives: A Multilingual Twitter Dataset of News Media on the Russo-Ukrainian Conflict}, 
+      author={Sherzod Hakimov and Gullal S. Cheema},
+      booktitle={Proceedings of the 2024 {ACM} International Conference on Multimedia Retrieval, {ICMR} 2024},
+      year={2024}
+}
+```
+
 
